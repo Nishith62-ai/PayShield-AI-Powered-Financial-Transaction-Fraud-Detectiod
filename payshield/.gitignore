@@ -1,0 +1,28 @@
+# Java / Spring Boot
+backend/target/
+backend/.mvn/
+backend/*.iml
+.idea/
+*.class
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Python
+fraud-service/__pycache__/
+fraud-service/venv/
+fraud-service/*.pyc
+fraud-service/model/*.joblib
+
+# Env / secrets
+.env
+*.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset (large file, not committed)
+datasets/*.csv
